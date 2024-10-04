@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional webpage of Dr Bassam Abed">
+    <title> Dr Bassam Abed - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .contact-info, .social-media {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>[Your Name]</h1>
+    <p>Director of Quality and Safety Management | Expert in Air Navigation Services</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Dr Bassam Abed, a professional with extensive experience in air traffic control, air navigation services, and aviation management. I am currently the Director of Quality and Safety Management System in Air Navigation Services at the Civil Aviation Regulatory Commission, Jordan.</p>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p><strong>Current Position:</strong> Director of Quality and Safety Management System, Civil Aviation Regulatory Commission (Since Aug 2023)</p>
+    <p><strong>Previous Experience:</strong> Director of Air Navigation Services, Amman Civil Airport (Mar 2023 - Aug 2023)</p>
+    <p><strong>Education:</strong> PhD in Computer Science (AI), MSc in Computer Science, BSc in Computer Science</p>
+    <a href="https://drive.google.com/drive/home" download>Download Resume</a>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>Project 1: CO2 Emissions Monitoring in Civil Aviation (Power BI)</li>
+        <li>Project 2: Controlled Airspace Design with VOR-ILS Procedures</li>
+        <li>Project 3: National Air Navigation Plan for Jordan</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Air Traffic Control</li>
+        <li>Quality and Safety Management Systems (ISO 9001)</li>
+        <li>AI and Machine Learning in Aviation</li>
+        <li>CO2 Emissions Monitoring</li>
+    </ul>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Coming soon! Stay tuned for insights on air navigation, aviation regulations, and technology advancements in aviation safety.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+        <div>
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+            <a href="https://twitter.com/yourprofile">Twitter</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© Dr Bassam Abed 2024</p>
+</footer>
+
+</body>
+</html>
